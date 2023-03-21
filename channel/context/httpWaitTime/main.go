@@ -29,3 +29,6 @@ func main() {
 	http.HandleFunc("/", hello)
 	http.ListenAndServe(":8080", nil)
 }
+
+// go build -o goEx << 打包Unix執行檔
+// ./goEx << 執行Unix執行檔
